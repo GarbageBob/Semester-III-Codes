@@ -36,7 +36,7 @@ public class Hexadecimal {
 
 
     public static void main(String[] args) {
-        System.out.println(decToHex(15));
-        System.out.println(hexToDec("F"));
+        System.out.println("Decimal to Hexadecimal: " + decToHex(15));
+        System.out.println("Hexadecimal to Decimal: " + hexToDec("F"));
     }
 }
